@@ -45,8 +45,8 @@ REM Display the saved git user name
 @echo      Git user email: !temp_email!
 
 REM Set temporary git credentials
-git config --global user.name "!temp_name!"
-git config --global user.email "!temp_email!"
+git config user.name "!temp_name!"
+git config user.email "!temp_email!"
 
 
 @echo Continue by Pressing ANY button.
